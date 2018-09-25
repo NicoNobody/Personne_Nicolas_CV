@@ -1,0 +1,122 @@
+body{
+  background: #274156;
+  width: 100%;
+  text-align: center;
+  font-size: 130%;
+}
+div{
+  color: #FFFFFF;
+}
+header{
+  text-align: center;
+  height: 5%;
+  line-height: 20px;
+  color: #FFFFFF;
+}
+.menu{
+  font-weight: bold;
+  text-decoration: none;
+  padding: 0 10px;
+  color: #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+}
+.menu:hover{
+  color:#1C6E8C;
+}
+.field{
+  background: #605856;
+  border: 1px solid black;
+  margin: 5%;
+  border-radius: 10px;
+}
+h3{
+  font-size: 200%;
+  color: #FFFFFF;
+}
+img{
+  margin-top: 1%;
+}
+/*tailles images*/
+.img8{
+  width: 8%;
+  height: 8%;
+}
+.img15{
+  width: 15%;
+  height: 15%;
+}
+.img10{
+  width: 10%;
+  height: 10%;
+}
+.img5{
+  width: 5%;
+  height: 5%;
+}
+.img4{
+  width: 4%;
+  height: 4%;
+}
+/* inline hobbies*/
+.p1{
+  display: inline;
+  margin: 5%;
+  color: #FFFFFF;
+}
+/*inline contact*/
+.p2{
+  display: inline;
+  margin: 5%;
+  color: #FFFFFF;
+}
+.fcont {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.fcont:hover{
+  color:#1C6E8C;
+}
+/*progress bar*/
+.progress-bar {
+    width: 100%;
+    height: 15px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+}
+.progress-bar:before {
+    display: block;
+    position: absolute;
+    height: 15px;
+    background: #1C6E8C;
+    border-radius: 12px;
+}
+.win:before{
+  content: "90%";
+  width: 24%;
+}
+.linux:before, .atom:before, .termi:before{
+  content: "80%";
+  width: 21%;
+}
+.html:before, .css:before, .git:before{
+  content: "40%";
+  width: 10%;
+}
+.github:before{
+  content: "60%";
+  width: 16%;
+}
+/*section mise en page comp*/
+#sect1{
+ flex-direction: column;
+ margin-right: 20%;
+}
+#sect2{
+  flex-direction: column;
+}
+.comp{
+  width: 30%;
+  margin: 1%;
+  display: inline-flex;
+}

@@ -1,11 +1,6 @@
 body{
-  background: #274156;
-  width: 100%;
-}
-div{
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 20px;
+  background-image: url("assets/img/background.jpg");
+  background: #24445C;
 }
 #hautpage{
   position: fixed;
@@ -13,7 +8,6 @@ div{
   bottom: 1%;
 }
 header{
-  height: 1%;
   line-height: 20px;
   color: #FFFFFF;
   text-align: center;
@@ -31,15 +25,20 @@ header{
 .field{
   background: #605856;
   border: 1px solid black;
-  margin: 5%;
+  margin-top: 3%;
+  margin-left: 10%;
+  padding-bottom: 1%;
   border-radius: 10px;
-}
-h3{
-  font-size: 200%;
+  width: 80%;
   color: #FFFFFF;
+  text-align: center;
 }
 img{
   margin-top: 1%;
+}
+/*taille profil*/
+#p4{
+  font-size: 25px;
 }
 /*tailles images*/
 .img8{
@@ -62,14 +61,30 @@ img{
   width: 4%;
   height: 4%;
 }
-/* inline hobbies*/
-.p1{
-  display: inline;
-  margin: 5%;
-  color: #FFFFFF;
+/*placement exp*/
+.p3{
+  display: block;
+  margin:1%;
+  text-align: justify;
+  font-weight: bold;
 }
-/*inline contact*/
-.p2{
+.ex1{
+  margin-left: 5%;
+}
+.ex2{
+  margin-left: 25%;
+}
+.ex3{
+  margin-left: 45%;
+}
+.ex4{
+  margin-left: 65%;
+}
+.ex5{
+  margin-left: 85%;
+}
+/* inline hobbies, contact*/
+.p1{
   display: inline;
   margin: 5%;
   color: #FFFFFF;
@@ -98,7 +113,7 @@ img{
 }
 .win:before{
   content: "90%";
-  width: 24%;
+  width: 23%;
 }
 .linux:before, .atom:before, .termi:before{
   content: "80%";
@@ -124,25 +139,4 @@ img{
   width: 30%;
   margin: 1%;
   display: inline-flex;
-}
-/*placement exp*/
-.p3{
-  display: block;
-  margin:1%;
-  text-align: justify;
-}
-.ex1{
-  margin-left: 5%;
-}
-.ex2{
-  margin-left: 20%;
-}
-.ex3{
-  margin-left: 40%;
-}
-.ex4{
-  margin-left: 60%;
-}
-.ex5{
-  margin-left: 80%;
 }
